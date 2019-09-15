@@ -1,0 +1,46 @@
+.rintro {
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+
+.rintro .rintro-content {
+  text-align: center;
+  position: absolute;
+}
+
+.rintro .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+}
+
+.rintro .rintro-subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.rintro .text-slider-items {
+  display: none;
+}
+
+.rintro-content {
+  margin-top: 30px;
+}
+
+/* display-table vertical centers text in screen */
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+/* table-cell-table horizontal centers text in screen */
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
